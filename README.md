@@ -1,3 +1,9 @@
+
+# The code generates the following output
+
+![image](![Output](https://user-images.githubusercontent.com/61039858/115165969-1170c680-a0f4-11eb-81fe-7829fac7a9eb.PNG))
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
