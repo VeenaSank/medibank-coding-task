@@ -5,15 +5,13 @@ import { useUserFetcher } from "./components/useUserFetcher";
 import "./App.css";
 
 function App() {
-  const [loading, userData, error] = useUserFetcher();
+  const [loading, ownersSortedPets, error] = useUserFetcher();
 
   if (loading === true) {
     return <p className="App">Loading...</p>;
-  } else if (userData === null) {
+  } else if (ownersSortedPets === null || error) {
     return null;
   }
-
-  const ownersSortedPets = [...userData];
 
   return (
     <>
