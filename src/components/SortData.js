@@ -14,14 +14,14 @@ const SortData = (props) => {
     }
 
     return getCats
-      .sort((catA, catB) => catA.localeCompare(catB))
+      .sort((catNameA, catNameB) => catNameA.localeCompare(catNameB))
       .map((catName) => <div> {catName} </div>);
   };
 
   return (
     <div>
-      <h2>{pets !== null ? gender : null}</h2>
-      <div>{sortedCats(pets)}</div>
+      <h2> {pets !== null ? gender : null} </h2>
+      <div> {sortedCats(pets)} </div>
     </div>
   );
 };

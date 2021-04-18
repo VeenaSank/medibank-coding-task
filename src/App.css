@@ -1,6 +1,6 @@
 .App {  
   text-align: center;  
- 
+  margin: 20px auto; 
 }
 
 .App-logo {
@@ -15,7 +15,7 @@
 }
 .Owners {
   margin: 20px auto;
-  width: 80%;
+  width: 80%;  
   color:#703b09;
   text-align: center;
   box-shadow: 0 20px 50px #ccc;
