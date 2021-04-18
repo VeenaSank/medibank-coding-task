@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import "./../App.css";
 
 const SortData = (props) => {
   const { gender, pets } = props;

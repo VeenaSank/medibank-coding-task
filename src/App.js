@@ -1,6 +1,6 @@
 import React from "react";
-import SortData from "./SortData";
-import { useUserFetcher } from "./useUserFetcher";
+import SortData from "./components/SortData";
+import { useUserFetcher } from "./components/useUserFetcher";
 
 import "./App.css";
 
