@@ -8,11 +8,14 @@ const SortData = (props) => {
   const sortedCats = (pets) => {
     const getCats = [];
     for (let pet in pets) {
-      if (pets[pet].type === "Cat") {
+      if (pets[pet].type.toLowerCase() === "cat") {
         getCats.push(pets[pet].name);
       }
     }
-    return getCats.sort().map((catName) => <div> {catName} </div>);
+
+    return getCats
+      .sort((catA, catB) => catA.localeCompare(catB))
+      .map((catName) => <div> {catName} </div>);
   };
 
   return (

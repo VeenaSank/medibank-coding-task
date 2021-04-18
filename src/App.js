@@ -44,8 +44,8 @@ function App() {
    
       <h1 className = "App"> Sorted Cats </h1>     
       <div className = "Owners">
-        {ownersSortedPets.map((user) => (
-        <SortData key={user.index} {...user} />
+        {ownersSortedPets.map((user,index) => (
+        <SortData key={user.name} {...user} />
       ))}
       </div>
       
